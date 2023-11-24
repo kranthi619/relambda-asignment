@@ -1,0 +1,8 @@
+---
+- name: Configure Three-Tier Web App Infrastructure
+  hosts: all
+  become: true
+  roles:
+    - nginx
+    - haproxy
+    - mysql

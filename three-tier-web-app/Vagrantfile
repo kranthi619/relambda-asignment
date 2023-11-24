@@ -1,0 +1,19 @@
+Vagrant.configure("2") do |config|
+  config.vm.define "vm_one" do |vm_one|
+    vm_one.vm.box = "ubuntu/trusty64"
+    # Add any other VM configurations as needed
+  end
+
+  config.vm.define "vm_two" do |vm_two|
+    vm_two.vm.box = "ubuntu/trusty64"
+    # Add any other VM configurations as needed
+  end
+
+  config.vm.define "vm_three" do |vm_three|
+    vm_three.vm.box = "ubuntu/trusty64"
+    # Add any other VM configurations as needed
+  end
+
+  config.vm.network "private_network", type: "dhcp"
+end
+
