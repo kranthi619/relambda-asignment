@@ -35,7 +35,7 @@ This project automates the deployment and configuration of a three-tier web appl
 
 ## Step-by-Step Guide
  Clone the Repository
-git clone https://github.com/kranthi619/relambda-asiignment.git
+git clone https://github.com/kranthi619/relambda-asignment.git
 cd three-tier-web-app
 
 
